@@ -11,6 +11,7 @@ const Entity = stampit({
   init() {
     this.components = {};
   },
+  methods: { a() {} }
 });
 
 const Position = stampit({
@@ -18,6 +19,7 @@ const Position = stampit({
     this.x = 10;
     this.y = 10;
   },
+  methods: { a() {} }
 });
 
 
@@ -26,6 +28,7 @@ const Velocity = stampit({
     this.vx = 10;
     this.vy = 10;
   },
+  methods: { a() {} }
 });
 
 const stampitEntities = ((count) => {
